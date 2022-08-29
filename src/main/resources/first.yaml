@@ -1,0 +1,25 @@
+name: lone
+long: 25
+address: "myway num1"
+active: true
+key:
+  key1: value1
+  key2: value2
+
+jsonObject: {key1: value1, key2: value2}
+jobArray:
+  -item1
+  -item2
+myArray:
+  -item1
+  - {name: tine, age: 27}
+longText: >
+  ljfnerbi3bf;r
+  w
+  wbrnbetryhrtbwe
+  werbwrbwrtbwtb
+  ervqetwetbwrtbrittle nettle rettle rittle
+noflText: |
+  unix commands
+  ls -a
+  pwd
