@@ -11,3 +11,9 @@ jobs:
         run: |
           node -v
           npm -v
+      - name: Pyhton Command
+        run: |
+          import platform
+          print(platform.processor())
+          print("hello world")
+          shell: python
