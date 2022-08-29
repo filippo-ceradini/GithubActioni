@@ -17,3 +17,11 @@ jobs:
           print(platform.processor())
           print("hello world")
         shell: python
+  run-windows-command:
+    runs-on: windows-latest
+    steps:
+      - name: Directory Powershell
+        run: Get-location
+      - name: Directory BBash
+        run: pwd
+        shell: bash
